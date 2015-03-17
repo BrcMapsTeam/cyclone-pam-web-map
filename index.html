@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cyclone Pam</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+        <link href='css/map.css' rel='stylesheet' />
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script src="data/pam_path.js"></script>
+        <script src="data/vanuatu_pop.js"></script>
+        <script src="data/styles.js"></script>
+        <script src="data/data.js"></script>
+        <script src="data/legends.js"></script>
+        <script type="text/javascript">var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46399763-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <!-- Page content -->
+        <div id="container" class="fill">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Cyclone Pam Interactive Map</h3>
+                    <p>Updated: 16 March 2015 -  Contact: <a href="https://twitter.com/Simon_B_Johnson">@simon_b_johnson</a> - Choose layers to add and remove using the button on the top right of the map.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id='map' class="col-md-12"></div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
